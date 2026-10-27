@@ -1,52 +1,35 @@
 # Dependencies
 node_modules/
 
-# Python — backend/.gitignore covers these too; kept here as a repo-wide safety
-# net so a stray venv or cache outside backend/ can never be committed.
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-env/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Local databases + collected static
-*.sqlite3
-*.sqlite3-journal
-staticfiles/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Build output
+# Next.js build output
 .next/
 out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment variables / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Supabase CLI local state
+supabase/.branches/
+supabase/.temp/
+supabase/signing_keys.json
 
 # Logs
-logs/
 *.log
 npm-debug.log*
 
-# OS
+# OS / editors
 .DS_Store
 Thumbs.db
-
-# IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# Claude Code
+# Claude Code / personal notes
 .claude/
 CLAUDE.md
 DIAGNOSTIC_REPORT.md
-
-# Personal reference docs
 docs/

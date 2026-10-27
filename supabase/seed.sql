@@ -1,0 +1,2 @@
+-- Intentionally empty. Sample catalog data is loaded with `npm run seed`
+-- (scripts/seed.mjs), which never overwrites rows you have edited.
