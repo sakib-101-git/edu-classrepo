@@ -1,0 +1,43 @@
+{
+  "_note": "SAMPLE DATA for local development and demo mode. Instructor names are fictional. Replace with the real catalog (see README: 'Importing the old catalog').",
+  "departments": [
+    { "code": "CSE", "name": "Computer Science & Engineering" },
+    { "code": "EEE", "name": "Electrical & Electronic Engineering" },
+    { "code": "BBA", "name": "Business Administration" },
+    { "code": "ENG", "name": "English" },
+    { "code": "GED", "name": "General Education" }
+  ],
+  "faculty": [
+    { "shortForm": "SMP1", "name": "Dr. Sample Rahman", "department": "CSE" },
+    { "shortForm": "SMP2", "name": "Ms. Example Chowdhury", "department": "CSE" },
+    { "shortForm": "SMP3", "name": "Mr. Placeholder Hossain", "department": "CSE" },
+    { "shortForm": "SMP4", "name": "Dr. Demo Akter", "department": "EEE" },
+    { "shortForm": "SMP5", "name": "Mr. Test Uddin", "department": "EEE" },
+    { "shortForm": "SMP6", "name": "Ms. Sample Begum", "department": "BBA" },
+    { "shortForm": "SMP7", "name": "Dr. Example Islam", "department": "BBA" },
+    { "shortForm": "SMP8", "name": "Ms. Demo Sultana", "department": "ENG" },
+    { "shortForm": "SMP9", "name": "Mr. Sample Karim", "department": "GED" }
+  ],
+  "courses": [
+    { "code": "CSE 111", "title": "Structured Programming Language", "department": "CSE", "creditHours": 3, "faculty": ["SMP1", "SMP3"] },
+    { "code": "CSE 112", "title": "Structured Programming Language Lab", "department": "CSE", "creditHours": 1.5, "faculty": ["SMP3"] },
+    { "code": "CSE 121", "title": "Discrete Mathematics", "department": "CSE", "creditHours": 3, "faculty": ["SMP2"] },
+    { "code": "CSE 211", "title": "Data Structures", "department": "CSE", "creditHours": 3, "faculty": ["SMP1", "SMP2"] },
+    { "code": "CSE 212", "title": "Data Structures Lab", "department": "CSE", "creditHours": 1.5, "faculty": ["SMP2"] },
+    { "code": "CSE 221", "title": "Object Oriented Programming", "department": "CSE", "creditHours": 3, "faculty": ["SMP3"] },
+    { "code": "CSE 231", "title": "Algorithms", "department": "CSE", "creditHours": 3, "faculty": ["SMP1"] },
+    { "code": "CSE 311", "title": "Database Management Systems", "department": "CSE", "creditHours": 3, "faculty": ["SMP2"] },
+    { "code": "CSE 321", "title": "Operating Systems", "department": "CSE", "creditHours": 3, "faculty": ["SMP3"] },
+    { "code": "CSE 331", "title": "Computer Networks", "department": "CSE", "creditHours": 3, "faculty": ["SMP1"] },
+    { "code": "EEE 101", "title": "Electrical Circuits I", "department": "EEE", "creditHours": 3, "faculty": ["SMP4"] },
+    { "code": "EEE 201", "title": "Electronics I", "department": "EEE", "creditHours": 3, "faculty": ["SMP5"] },
+    { "code": "EEE 301", "title": "Signals and Systems", "department": "EEE", "creditHours": 3, "faculty": ["SMP4"] },
+    { "code": "BBA 101", "title": "Principles of Management", "department": "BBA", "creditHours": 3, "faculty": ["SMP6"] },
+    { "code": "BBA 201", "title": "Financial Accounting", "department": "BBA", "creditHours": 3, "faculty": ["SMP7"] },
+    { "code": "BBA 301", "title": "Marketing Management", "department": "BBA", "creditHours": 3, "faculty": ["SMP6", "SMP7"] },
+    { "code": "ENG 101", "title": "English Reading and Writing", "department": "ENG", "creditHours": 3, "faculty": ["SMP8"] },
+    { "code": "ENG 102", "title": "Public Speaking", "department": "ENG", "creditHours": 3, "faculty": ["SMP8"] },
+    { "code": "MAT 101", "title": "Differential and Integral Calculus", "department": "GED", "creditHours": 3, "faculty": ["SMP9"] },
+    { "code": "PHY 101", "title": "Physics I", "department": "GED", "creditHours": 3, "faculty": ["SMP9"] }
+  ]
+}
